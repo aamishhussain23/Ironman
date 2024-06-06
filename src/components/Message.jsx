@@ -11,7 +11,7 @@ const Message = ({message, person}) => {
         (
           <>
             <div className={`${person === "You" ? styles.message_box_you  : styles.message_box }`} >
-      <img src={profile_pic} alt="" />
+      {/* <img src={profile_pic} alt="" /> */}
       <div className={`${person === "You" ? styles.name_and_message_you :  styles.name_and_message}`}>
         <div className={`${person === "You" ? styles.name_you : styles.name }`}>{person}</div>
         <div className={`${person === "You" ? styles.message_you : styles.message}`}>{message}</div>
@@ -32,7 +32,7 @@ const Message = ({message, person}) => {
                   <div className={`${person === "You" ? styles.message_you : styles.message}`}>{message}</div>
                 </div>
 
-                <img src={profile_pic} alt="" />
+                {/* <img src={profile_pic} alt="" /> */}
               </div>
               <br />          
           </>

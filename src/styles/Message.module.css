@@ -1,13 +1,13 @@
 .message_box{
     display: flex;
     width: 100%;
-    padding: 10px;
+    padding-left: 5%;
 }
 
 .message_box_you{
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
+    padding-right: 5%;
 }  
 
 .name_and_message{

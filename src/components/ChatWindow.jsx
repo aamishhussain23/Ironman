@@ -34,7 +34,7 @@ const ChatWindow = () => {
     <div className={styles.container}>
       <nav className={styles.navBar}>
         <img src={company_logo} alt="company logo" />
-        <span className={styles.company_name}>Mosaic Labs</span>
+        <span className={styles.company_name}>Elon Musk</span>
       </nav>
 
       <div className={styles.chat_body}>
@@ -44,7 +44,6 @@ const ChatWindow = () => {
 
         <div className={styles.chatArea}>
           <section className={styles.heading_and_image}>
-            <h1>Elon Musk</h1>
             <img src={profile_pic} alt="" />
           </section>
           <div className={styles.chatSection}>
