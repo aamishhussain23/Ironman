@@ -1,0 +1,101 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navBar {
+    border-bottom: 1px solid #ccc;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.navBar > img {
+    margin-left: 0.8rem;
+}
+
+.company_name {
+    margin-left: 0.9rem;
+    color: var(--black-color);
+    font-weight: 800;
+}
+
+.chat_body {
+    display: flex;
+    flex: 1; 
+    overflow: hidden; 
+}
+
+.leftSidebar {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.leftSidebar > img {
+    height: 30%;
+    width: 70%;
+    margin: 1.9rem;
+}
+
+.chatArea {
+    width: 80%;
+    overflow: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.chatSection{
+    height: 70%;
+    position: relative;
+    overflow-y: auto;
+    /* display: flex; */
+}
+
+.otherSidebar, .mysidebar{
+    width: 50%;
+}
+
+.mysidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.inputBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 2.8rem;
+    width: 90%;
+    margin-left: 3rem;
+    /* margin: 0 auto; */
+    background-color: var(--light-grey-color);
+    border-radius: 0.5rem;
+}
+
+.inputBox > input{
+    width: 90%;
+    height: 1.7rem;
+    padding-left: 5px;
+    background-color: var(--light-grey-color);
+    outline: none;
+    border: none;
+    font-family: var(--font-family-1);
+}
+
+.inputBox > button{
+    font-size: 0.7rem;
+    width: 4.2rem;
+    height: 1.8rem;
+    border-radius: 0.5rem;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

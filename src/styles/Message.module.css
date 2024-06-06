@@ -1,0 +1,68 @@
+.message_box{
+    display: flex;
+    width: 100%;
+    /* position: absolute; */
+}
+
+.message_box_you{
+    display: flex;
+    width: 95%;
+    justify-content: flex-end;
+    /* position: absolute; */
+}
+
+.name_and_message{
+    display: flex;
+    flex-direction: column;
+}
+
+.name_and_message_you{
+    display: flex;
+    flex-direction: column;
+}
+
+.message_box  img{
+    height: 2rem;
+    width: 2rem;
+    align-self: flex-end;
+    margin-right: 12px;
+}
+
+.message_box_you  img{
+    height: 2rem;
+    width: 2rem;
+    align-self: flex-end;
+    margin-left: 12px;
+}
+
+.name{
+    font-size: 0.7rem;
+    color: var(--deep-grey-color);
+    margin-bottom: 4px;
+}
+
+.name_you{
+    font-size: 0.7rem;
+    color: var(--deep-grey-color);
+    margin-bottom: 4px;
+    text-align: end;
+}
+
+.message{
+    height: auto;
+    background-color: var(--light-grey-color);
+    padding: 10px;
+    border-radius: 0.6rem;
+}
+
+.message_you{
+    height: auto;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 10px;
+    border-radius: 0.6rem;
+}
+
+*{
+    /* border: 1px solid red; */
+}
