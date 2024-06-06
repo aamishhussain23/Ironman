@@ -43,7 +43,10 @@ const ChatWindow = () => {
         </div>
 
         <div className={styles.chatArea}>
-          <h1>Elon Musk</h1>
+          <section className={styles.heading_and_image}>
+            <h1>Elon Musk</h1>
+            <img src={profile_pic} alt="" />
+          </section>
           <div className={styles.chatSection}>
             {messages.map((msg, index) => (
               <Message key={index} message={msg.message} person={msg.person} />

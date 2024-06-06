@@ -1,15 +1,17 @@
 .message_box{
     display: flex;
     width: 100%;
+    margin-left: 10px;
     /* position: absolute; */
 }
 
 .message_box_you{
     display: flex;
-    width: 95%;
+    /* width: 95%; */
+    margin-right: 10px;
     justify-content: flex-end;
     /* position: absolute; */
-}
+}  
 
 .name_and_message{
     display: flex;
@@ -63,6 +65,12 @@
     border-radius: 0.6rem;
 }
 
-*{
-    /* border: 1px solid red; */
+@media (max-width: 600px){
+    .message_box_you{
+        margin-right: 10px;
+    }
+    /* .message_box{
+        margin-left: 10px;
+    } */
+    
 }
